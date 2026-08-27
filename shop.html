@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shop, LaDOS</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,500&family=Quicksand:wght@500;700&family=Caveat:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="logo">
+      <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="20" cy="20" r="19" fill="#F4C9C0"/>
+        <path d="M20 28c0-8 -6-13-12-13" stroke="#7DA184" stroke-width="2.4" stroke-linecap="round"/>
+        <path d="M20 28c0-9 6-15 13-15" stroke="#7DA184" stroke-width="2.4" stroke-linecap="round"/>
+        <circle cx="20" cy="29" r="3.2" fill="#E8836B"/>
+      </svg>
+      LaDOS
+    </a>
+    <nav class="main-nav" aria-label="Main">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="shop.html" class="active">Shop</a></li>
+        <li><a href="illustrator.html">Illustrator</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="section-tight bg-paper">
+  <div class="wrap">
+    <span class="eyebrow">✿ the shop</span>
+    <h1>Our first two books.</h1>
+    <p class="lede">Both titles are still being printed. Pre-orders open closer to each release date, drop your email below a book and we'll let you know the moment it's ready.</p>
+  </div>
+</section>
+
+<section class="section bg-lavender" style="padding-top:40px;">
+  <div class="wrap">
+
+    <div class="book-card" style="grid-template-columns: 240px 1fr;">
+      <div class="book-cover" style="width:240px; height:336px;">
+        <svg viewBox="0 0 200 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder cover for The Acorn Who Waited">
+          <rect width="200" height="280" fill="#D9C9EA"/>
+          <circle cx="100" cy="90" r="46" fill="#FFFDF9" opacity="0.5"/>
+          <ellipse cx="100" cy="150" rx="30" ry="38" fill="#B08968"/>
+          <path d="M78 130 Q100 105 122 130 Z" fill="#7DA184"/>
+          <text x="100" y="230" text-anchor="middle" font-family="Fraunces, serif" font-size="16" fill="#4A4238">The Acorn</text>
+          <text x="100" y="250" text-anchor="middle" font-family="Fraunces, serif" font-size="16" fill="#4A4238">Who Waited</text>
+        </svg>
+      </div>
+      <div>
+        <span class="badge badge-jan">Releasing January [Year]</span>
+        <h2 style="margin-bottom:4px;">The Acorn Who Waited</h2>
+        <p style="font-family:var(--font-hand); font-size:1.15rem; color:var(--ink-soft); margin-bottom:12px;">Written by [Founder Name] · Illustrated by [Illustrator Name]</p>
+        <p>[Placeholder blurb]: Every other acorn on the branch has already let go and rolled off to become something. One small acorn is sure she's been forgotten, until a very patient squirrel explains that winter is not nothing, it's practice. A quiet story about waiting well.</p>
+        <div class="tag-row">
+          <span class="tag-pill">Ages 3 to 7</span>
+          <span class="tag-pill">32 pages</span>
+          <span class="tag-pill">Hardcover</span>
+        </div>
+        <div class="price-row">
+          <span class="price">$[00.00]</span>
+          <span class="price-note">pre order price, placeholder</span>
+        </div>
+        <form class="notify-form" onsubmit="return false;">
+          <label for="notify-jan" style="position:absolute; left:-9999px;">Email address</label>
+          <input id="notify-jan" type="email" placeholder="you@example.com" required>
+          <button type="submit" class="btn btn-primary">Notify me</button>
+        </form>
+        <p class="placeholder-note">Placeholder: connect this form to your mailing list provider before launch.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<svg class="petal-divider" viewBox="0 0 1200 44" preserveAspectRatio="none" aria-hidden="true">
+  <path d="M0 0 L0 24 Q30 44 60 24 T120 24 T180 24 T240 24 T300 24 T360 24 T420 24 T480 24 T540 24 T600 24 T660 24 T720 24 T780 24 T840 24 T900 24 T960 24 T1020 24 T1080 24 T1140 24 T1200 24 L1200 0 Z" fill="var(--butter)" opacity="0.6"/>
+</svg>
+
+<section class="section" style="background:var(--butter); padding-top:40px;">
+  <div class="wrap">
+
+    <div class="book-card" style="grid-template-columns: 240px 1fr;">
+      <div class="book-cover" style="width:240px; height:336px;">
+        <svg viewBox="0 0 200 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder cover for Sunflower Days">
+          <rect width="200" height="280" fill="#F6DD9E"/>
+          <circle cx="100" cy="80" r="30" fill="#F6DD9E" stroke="#E8836B" stroke-width="6"/>
+          <circle cx="100" cy="80" r="14" fill="#E8836B"/>
+          <rect x="96" y="108" width="8" height="90" fill="#7DA184"/>
+          <path d="M100 150 Q130 140 128 165 Q105 165 100 150" fill="#7DA184"/>
+          <text x="100" y="230" text-anchor="middle" font-family="Fraunces, serif" font-size="16" fill="#4A4238">Sunflower</text>
+          <text x="100" y="250" text-anchor="middle" font-family="Fraunces, serif" font-size="16" fill="#4A4238">Days</text>
+        </svg>
+      </div>
+      <div>
+        <span class="badge badge-jul">Releasing July [Year]</span>
+        <h2 style="margin-bottom:4px;">Sunflower Days</h2>
+        <p style="font-family:var(--font-hand); font-size:1.15rem; color:var(--ink-soft); margin-bottom:12px;">Written by [Founder Name] · Illustrated by [Illustrator Name]</p>
+        <p>[Placeholder blurb]: Every summer, a girl named [placeholder] marks her height against the sunflowers by the back fence. This is the summer she finally grows taller than them, and isn't sure how she feels about it. A story about growing up at your own pace.</p>
+        <div class="tag-row">
+          <span class="tag-pill">Ages 3 to 7</span>
+          <span class="tag-pill">32 pages</span>
+          <span class="tag-pill">Hardcover</span>
+        </div>
+        <div class="price-row">
+          <span class="price">$[00.00]</span>
+          <span class="price-note">pre order price, placeholder</span>
+        </div>
+        <form class="notify-form" onsubmit="return false;">
+          <label for="notify-jul" style="position:absolute; left:-9999px;">Email address</label>
+          <input id="notify-jul" type="email" placeholder="you@example.com" required>
+          <button type="submit" class="btn btn-primary">Notify me</button>
+        </form>
+        <p class="placeholder-note">Placeholder: connect this form to your mailing list provider before launch.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <div class="logo" style="color:#2f4432;">LaDOS</div>
+      <p class="footer-tagline">grown slowly, read twice.</p>
+    </div>
+    <ul class="footer-links">
+      <li><a href="about.html">About</a></li>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="illustrator.html">Illustrator</a></li>
+    </ul>
+  </div>
+  <div class="wrap footer-bottom">
+    © [Year] LaDOS. Placeholder site, all names and titles pending.
+  </div>
+</footer>
+
+</body>
+</html>
